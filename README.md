@@ -4,6 +4,10 @@ A Neovim theme written in Lua ported from [Visual Studio Code Dark+](https://git
 
 ## Screenshots
 
+|                                                     VsCode                                                      |                                               Themelas in nvim                                               |
+| :-------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------: |
+| ![VsCode](https://user-images.githubusercontent.com/7432853/201310328-9b699a24-b2fe-4451-a5e1-1dc19fe42ee8.png) | ![Vim](https://user-images.githubusercontent.com/7432853/201310346-ddd9e640-6846-43cd-9b52-e08065f844bc.png) |
+
 ## Plugin Support
 
 - [TreeSitter](https://github.com/nvim-treesitter/nvim-treesitter)
@@ -60,4 +64,4 @@ If you would like to add support to a plugin or to fix a bug please feel free to
 
 - [tokyonight](https://github.com/folke/tokyonight.nvim) - Readme organization and some highlight groups are heavily inspired by this plugin.
 
-- [DarkPlus](https://github.com/martinsione/darkplus.nvim) - Base for this theme 
+- [DarkPlus](https://github.com/martinsione/darkplus.nvim) - Base for this theme
