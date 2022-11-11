@@ -16,7 +16,6 @@ M.base = {
   Conceal = { fg = c.accent, bg = config.transparent_background and 'NONE' or c.bg },
   Conditional = { fg = c.purple },
   Constant = { fg = c.orange },
-  csTypeOf = { fg = c.blue },
   Cursor = { fg = c.cursor_fg, bg = c.cursor_bg },
   CursorColumn = { bg = c.dark },
   CursorIM = { fg = c.cursor_fg, bg = c.cursor_bg },
@@ -60,8 +59,7 @@ M.base = {
   MsgArea = { fg = c.fg, bg = config.transparent_background and 'NONE' or c.bg },
   MsgSeparator = { fg = c.fg, bg = c.bg },
   NonText = { fg = c.context },
-  Normal = { fg = c.fg, bg = config.transparent_background and 'NONE' or c.bg },
-  -- NvimSpacing = { fg = c.bright_blue, bg = config.transparent_background and 'NONE' or c.bg },
+  Normal = { fg = c.light_blue, bg = config.transparent_background and 'NONE' or c.bg },
   NormalFloat = { bg = c.dark },
   NormalNC = { fg = c.fg, bg = config.transparent_background and 'NONE' or c.bg },
   Number = { fg = c.numbers },
@@ -137,6 +135,15 @@ M.base = {
   markdownOrderedListMarker = { fg = c.red },
   markdownRule = { fg = c.accent },
   markdownUrl = { fg = c.cyan, style = 'underline' },
+
+  -- CSharp
+  csBraces = { fg = c.bright_blue },
+  csParens = { fg = c.bright_orange },
+  csTypeOf = { fg = c.blue },
+  csGeneric = { fg = c.cyan },
+  csGenericBraces = { fg = c.fg },
+  csNull = { fg = c.blue },
+  csEndColon = { fg = c.fg }
 }
 
 M.plugins = {

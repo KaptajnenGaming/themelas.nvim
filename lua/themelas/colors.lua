@@ -12,6 +12,8 @@ return {
   dark_orange = '#ce834a',
   cyan = '#4eC9b0',
   bright_blue = "#1a9fdb",
+  bright_orange = "#ffb517",
+
   -- Old
   dark = '#252525',
   accent = '#BBBBBB',
