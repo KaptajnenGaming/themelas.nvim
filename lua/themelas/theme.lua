@@ -46,7 +46,7 @@ M.base = {
   Ignore = { fg = c.cyan, bg = c.bg, style = 'bold' },
   IncSearch = { fg = c.light_gray, bg = c.search_blue },
   Include = { fg = c.cyan }, -- Import package names + Namespace
-  Keyword = { fg = c.purple },
+  Keyword = { fg = c.blue },
   Label = { fg = c.blue },
   LineNr = { fg = c.context },
   Macro = { fg = c.blue },
@@ -91,7 +91,7 @@ M.base = {
   StatusLineTermNC = { fg = c.dark },
   StorageClass = { fg = c.blue },
   String = { fg = c.dark_orange },
-  Structure = { fg = c.blue },
+  Structure = { fg = c.cyan },
   Substitute = { fg = c.light_gray, bg = c.search_orange },
   TabLine = { fg = c.light_gray, bg = c.dark },
   TabLineFill = { fg = c.fg, bg = c.dark },
@@ -143,7 +143,9 @@ M.base = {
   csGeneric = { fg = c.cyan },
   csGenericBraces = { fg = c.fg },
   csNull = { fg = c.blue },
-  csEndColon = { fg = c.fg }
+  csEndColon = { fg = c.fg },
+  EnumName = { fg = c.cyan },
+  EnumMemberField = { fg = c.bright_blue },
 }
 
 M.plugins = {
@@ -330,6 +332,10 @@ M.plugins = {
   TSUnderline = { style = 'underline' },
   TSVariable = { fg = c.light_blue },
   TSVariableBuiltin = { fg = c.light_blue },
+  ["@keyword.return"] = { fg = c.purple },
+  ["@punctuation.bracket"] = { fg = c.bright_orange },
+  ["@punctuation.delimiter"] = { fg = c.fg },
+  ["@include"] = { fg = c.blue }
 }
 
 return M
