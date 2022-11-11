@@ -11,7 +11,7 @@ return {
   light_green = '#b5cea8',
   dark_orange = '#ce834a',
   cyan = '#4eC9b0',
-  bright_blue = "#1a9fdb",
+  bright_blue = "#4fc1ff",
   bright_orange = "#ffb517",
 
   -- Old

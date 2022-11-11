@@ -4,9 +4,9 @@ A Neovim theme written in Lua ported from [Visual Studio Code Dark+](https://git
 
 ## Screenshots
 
-|                                                     VsCode                                                      |                                               Themelas in nvim                                               |
-| :-------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------: |
-| ![VsCode](https://user-images.githubusercontent.com/7432853/201310328-9b699a24-b2fe-4451-a5e1-1dc19fe42ee8.png) | ![Vim](https://user-images.githubusercontent.com/7432853/201310346-ddd9e640-6846-43cd-9b52-e08065f844bc.png) |
+|                                                     VsCode                                                      |                                                  Themelas in nvim                                                   |
+| :-------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------: |
+| ![VsCode](https://user-images.githubusercontent.com/7432853/201310328-9b699a24-b2fe-4451-a5e1-1dc19fe42ee8.png) | ![Vim_CSharp](https://user-images.githubusercontent.com/7432853/201432057-43ddef18-b550-4800-94ee-ad5b1a9e7b79.png) |
 
 ## Plugin Support
 
@@ -25,6 +25,14 @@ A Neovim theme written in Lua ported from [Visual Studio Code Dark+](https://git
 ## ⚡️ Requirements
 
 - Neovim >= 0.5.0
+- Omnisharp-vim - for proper C# highlighting with the following configuration
+
+```lua
+-- lua
+vim.g.OmniSharp_highlight_groups = {
+  EnumMemberName = 'EnumMemberField'
+}
+```
 
 ## 📦 Installation
 
