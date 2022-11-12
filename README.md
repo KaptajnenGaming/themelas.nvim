@@ -1,12 +1,28 @@
 # Themelas
 
-A Neovim theme written in Lua ported from [Visual Studio Code Dark+](https://github.com/microsoft/vscode/blob/main/extensions/theme-defaults/themes/dark_plus.json) theme
+A Neovim theme written in Lua ported from [Visual Studio Code Dark+](https://github.com/microsoft/vscode/blob/main/extensions/theme-defaults/themes/dark_plus.json) theme.
+Currently created with a focus on C#, Javascript & Typescript development
+
+## Table of contents
+
+1. [Screenshots](#screenshots)
+1. [Plugin Support](#plugin-support)
+1. [Requirements](#⚡️-requirements)
+1. [Installation](#📦-installation)
+1. [Usage](#🚀-usage)
+1. [Contributing](#🔥-contributing)
+1. [Credits](#💐-credits)
 
 ## Screenshots
 
 |                                                     VsCode                                                      |                                                  Themelas in nvim                                                   |
 | :-------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------: |
+|                                                    C# vscode                                                    |                                                      C# neovim                                                      |
 | ![VsCode](https://user-images.githubusercontent.com/7432853/201310328-9b699a24-b2fe-4451-a5e1-1dc19fe42ee8.png) | ![Vim_CSharp](https://user-images.githubusercontent.com/7432853/201432057-43ddef18-b550-4800-94ee-ad5b1a9e7b79.png) |
+|                                                Javascript vscode                                                |                                                  Javascript neovim                                                  |
+
+|
+| ![vscode_js](https://user-images.githubusercontent.com/7432853/201488915-6f57fa40-4ca3-4f04-b1a1-8846a319bed0.png) | ![vim_js](https://user-images.githubusercontent.com/7432853/201488926-2f44fa03-476f-44e6-a7ef-0c4bb935f56b.png) |
 
 ## Plugin Support
 
@@ -25,14 +41,17 @@ A Neovim theme written in Lua ported from [Visual Studio Code Dark+](https://git
 ## ⚡️ Requirements
 
 - Neovim >= 0.5.0
-- Omnisharp-vim - for proper C# highlighting with the following configuration
+- [Omnisharp-vim](https://github.com/OmniSharp/omnisharp-vim) - Enables proper C# highlighting with the following configuration
 
 ```lua
 -- lua
 vim.g.OmniSharp_highlight_groups = {
-  EnumMemberName = 'EnumMemberField'
+  EnumMemberName = 'EnumMemberField',
+  Operator = 'OperatorPunctuation'
 }
 ```
+
+- [TreeSitter](https://github.com/nvim-treesitter/nvim-treesitter) - With highlighting enabled for Javascript files
 
 ## 📦 Installation
 

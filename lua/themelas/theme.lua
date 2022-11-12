@@ -146,6 +146,7 @@ M.base = {
   csEndColon = { fg = c.fg },
   EnumName = { fg = c.cyan },
   EnumMemberField = { fg = c.bright_blue },
+  OperatorPunctuation = { fg = c.fg },
 }
 
 M.plugins = {
@@ -335,7 +336,8 @@ M.plugins = {
   ["@keyword.return"] = { fg = c.purple },
   ["@punctuation.bracket"] = { fg = c.bright_orange },
   ["@punctuation.delimiter"] = { fg = c.fg },
-  ["@include"] = { fg = c.blue }
+  ["@include"] = { fg = c.blue },
+  ["@constructor"] = { fg = c.cyan }
 }
 
 return M
