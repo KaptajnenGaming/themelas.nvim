@@ -147,6 +147,7 @@ M.base = {
   EnumName = { fg = c.cyan },
   EnumMemberField = { fg = c.bright_blue },
   OperatorPunctuation = { fg = c.fg },
+  ClassKeyword = { fg = c.blue },
 }
 
 M.plugins = {
