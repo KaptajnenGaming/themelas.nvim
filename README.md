@@ -45,7 +45,8 @@ Currently created with a focus on C#, Javascript & Typescript development
 -- lua
 vim.g.OmniSharp_highlight_groups = {
   EnumMemberName = 'EnumMemberField',
-  Operator = 'OperatorPunctuation'
+  Operator = 'OperatorPunctuation',
+  Keyword = 'CsKeyword'
 }
 ```
 
