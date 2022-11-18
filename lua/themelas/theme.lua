@@ -148,6 +148,7 @@ M.base = {
   EnumMemberField = { fg = c.bright_blue },
   OperatorPunctuation = { fg = c.fg },
   CsKeyword = { fg = c.blue },
+  CsControlKeyword = { fg = c.purple }
 }
 
 M.plugins = {

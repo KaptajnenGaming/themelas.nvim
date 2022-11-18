@@ -46,7 +46,8 @@ Currently created with a focus on C#, Javascript & Typescript development
 vim.g.OmniSharp_highlight_groups = {
   EnumMemberName = 'EnumMemberField',
   Operator = 'OperatorPunctuation',
-  Keyword = 'CsKeyword'
+  Keyword = 'CsKeyword',
+  ControlKeyword = 'CsControlKeyword'
 }
 ```
 
